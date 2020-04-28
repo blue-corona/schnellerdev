@@ -1,4 +1,4 @@
-# Version 2.0
+# Version 2.1
 
 *~
 .DS_Store
@@ -232,15 +232,20 @@ wp-content/mysql.sql
 !.phpintel/
 !/wp-content/plugins/bc-affiliations
 !/wp-content/plugins/bc-affiliations-master
+!/wp-content/plugins/bluecorona-plugin-affiliations-master
 !/wp-content/plugins/bc-locations
 !/wp-content/plugins/bc-locations-master
 !/wp-content/plugins/bc-promotions
 !/wp-content/plugins/bc-promotions-master
+!/wp-content/plugins/bluecorona-plugin-promotions-master
 !/wp-content/plugins/bc-geotargeting
 !/wp-content/plugins/bc-geotargeting-master
+!/wp-content/plugins/bluecorona-plugin-geotargeting-master
 !/wp-content/plugins/bc-testimonials
 !/wp-content/plugins/bc-testimonials-master
+!/wp-content/plugins/bluecorona-plugin-testimonials-master
 !/wp-content/plugins/bc-schema
 !/wp-content/plugins/bc-schema-master
+!/wp-content/plugins/bluecorona-plugin-schema-master
 !/wp-content/plugins/citystate
 !/wp-content/plugins/citystate-new
