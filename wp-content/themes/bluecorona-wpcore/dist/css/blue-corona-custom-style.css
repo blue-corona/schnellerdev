@@ -1,0 +1,18 @@
+#accordion-section-title_tagline {display: none !important;}
+#accordion-section-colors {display: none !important;}
+#accordion-section-background_image {display: none !important;}
+#accordion-panel-nav_menus {display: none !important;}
+#accordion-panel-widgets {display: none !important;}
+#accordion-section-static_front_page {display: none !important;}
+#accordion-section-understrap_theme_layout_options {display: none !important;}
+.customize-control .customize-inside-control-row {display: inline;}
+#customize-control-bc_social_icon_color{width: 50%;}
+/*#customize-control-bc_social_icon_hover_color{width: 50%;float: right;margin-top: -70px;}*/
+#customize-control-bc_header_scheme_header_type span{display: block;}
+
+#customize-control-bc_background_button_color{width: 50%;}
+#customize-control-bc_background_button_text_color{width: 50%;float: right;margin-top: -70px;}
+
+#customize-control-bc_video_button_color{width: 50%;}
+#customize-control-bc_video_button_text_color{width: 50%;float: right;margin-top: -70px;}
+ #customize-control-bc_home_hero_type{display: grid !important;}

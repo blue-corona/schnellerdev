@@ -1,0 +1,33 @@
+//Classes for color
+.bc_color_primary { color: $primary_color; }
+.bc_color_secondary { color: $secondary_color; }
+.bc_color_tertiary { color: $tertiary_color; }
+.bc_color_quaternary{ color: $quaternary_color; }
+.bc_color_error { color: $error_color; }
+.bc_color_warning { color: $warning_color; }
+.bc_color_success { color: $success_color; }
+.bc_color_info { color: $info_color; }
+.bc_color_black { color: #000000; }
+
+//Classes for bg color
+.bc_color_primary_bg { background-color: $primary_color; }
+.bc_color_secondary_bg { background-color: $secondary_color; }
+.bc_color_tertiary_bg { background-color: $tertiary_color; }
+.bc_color_quaternary_bg{ background-color: $quaternary_color; }
+.bc_color_error_bg { background-color: $error_color; }
+.bc_color_warning_bg { background-color: $warning_color; }
+.bc_color_success_bg { background-color: $success_color; }
+.bc_color_info_bg { background-color: $info_color; }
+.bc_color_black_bg { background-color: #000000; }
+
+//Classes for hover color
+.bc_color_primary_hover { &:hover{ color: $primary_color; } }
+.bc_color_secondary_hover { &:hover{ color: $secondary_color; } }
+.bc_color_tertiary_hover { &:hover{ color: $tertiary_color; } }
+.bc_color_quaternary_hover{ &:hover{ color: $quaternary_color; } }
+.bc_color_error_hover { &:hover{ color: $error_color; } }
+.bc_color_warning_hover { &:hover{ color: $warning_color; } }
+.bc_color_success_hover { &:hover{ color: $success_color; } }
+.bc_color_info_hover { &:hover{ color: $info_color; } }
+.bc_color_black_hover { &:hover{ color: #000000; } }
+.bc_color_secondary_hover_bg { &:hover{ background-color: $secondary_color; } }

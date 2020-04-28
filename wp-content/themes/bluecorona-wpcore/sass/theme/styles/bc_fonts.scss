@@ -1,0 +1,175 @@
+.nunito {
+	font-family: Nunito;
+}
+
+.bc_section_link {
+	color: $primary_color !important;
+	font-size: 24px !important;
+}
+
+.bc_announcement_bar{
+	a{
+		font-size: 16px !important;
+	}
+}
+
+.bc_locations_secondary_text {
+	color:$warning_color;
+}
+
+.bc_coupon_heading{
+	font-size:2.25rem;
+}
+
+.bc_alternate_font_white{
+	font-family:$alternate_font_family_1;
+	color:$secondary_color; 
+	font-weight:400;
+
+}
+.bc_alternate_font_blue{
+	color:$primary_color; 
+	font-family:$alternate_font_family_1;
+	font-weight:400;
+}
+
+.bc_primary_heading_blue {
+	font-family: $alternate_font_family_2;
+	color: $primary_color;
+	font-weight:400 !important;
+}
+
+.bc_primary_content_blue {
+	font-family: $default_font_family;
+	color: $primary_color;	
+}
+
+.bc_primary_heading_white {
+	font-family: $alternate_font_family_2;
+	color: $secondary_color;
+	font-weight:400 !important;
+}
+
+.alt_title {
+    font-family: Pacifico;
+    text-transform: capitalize;
+    display: block;
+    line-height: 1.5em;
+}
+h1 {
+	color: $primary_color;
+}
+h5 {
+	font-size: 18px;
+	font-weight: 600;
+}
+footer > p {
+	color:white !important;
+}
+
+//Default BC core font scheme
+h1{
+	font-family: $default_font_family;
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: none;
+	line-height: 48px;
+	letter-spacing: default;
+	color: $primary_color;
+}
+
+h2{
+	font-family: $default_font_family;
+	font-size: 36px;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 36px;
+	letter-spacing: default;
+	color: $primary_color;
+}
+
+h3{
+	font-family: $default_font_family;
+	font-size: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 36px;
+	letter-spacing: default;
+	color: $primary_color;
+}
+
+h4{
+	font-family: $default_font_family;
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: none;
+	line-height: 30px;
+	letter-spacing: default;
+	color: $primary_color;
+}
+
+h5{
+	font-family: $default_font_family;
+	font-size: 18px;
+	font-weight: 400; 
+	text-transform: none;
+	line-height: 24px;
+	letter-spacing: default;
+	color: $primary_color;
+}
+
+h6{
+	font-family: $default_font_family;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: none;
+	line-height: 18px;
+	letter-spacing: default;
+	color: $primary_color;
+}
+
+p{
+	font-family: $default_font_family;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: none;
+	line-height: 36px;
+	letter-spacing: default;
+	color: $primary_color;
+
+}
+
+//Todo: need to style for hyperlinks <a>
+
+//Classes for font family
+.bc_font_default { font-family: $default_font_family; }
+.bc_font_alt_1 { font-family: $alternate_font_family_1; }
+.bc_font_alt_2 { font-family: $alternate_font_family_2; }
+.bc_font_alt_3 { font-family: $alternate_font_family_3; }
+
+//Classes for font-weights
+.bc_text_thin { font-weight: 100; }
+.bc_text_xlight { font-weight: 200; }
+.bc_text_light { font-weight: 300; }
+.bc_text_normal { font-weight: 400; }
+.bc_text_medium { font-weight: 500; }
+.bc_text_semibold { font-weight: 600; }
+.bc_text_bold { font-weight: 700; }
+.bc_text_xbold { font-weight: 800; }
+.bc_text_heavy { font-weight: 900; }
+
+//Classes for font sizes
+.bc_text_16 { font-size: 16px; }
+.bc_text_18 { font-size: 18px; }
+.bc_text_20 { font-size: 20px; }
+.bc_text_24 { font-size: 24px; }
+.bc_text_30 { font-size: 30px; }
+.bc_text_36 { font-size: 36px; }
+.bc_text_48 { font-size: 48px; }
+
+body, ::placeholder, button {
+  font-family: $default_font_family;
+  font-weight: 400;
+  line-height: 36px;
+  color: $success_color;
+}

@@ -1,0 +1,33 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito:100,100i,300,300i,400,400i,500,500i|Anton:100,100i,300,300i,400,400i,500,500i|Pacifico:100,100i,300,300i,400,400i,500,500i|Roboto:100,100i,300,300i,400,400i,500,500i&display=swap');
+@import "variables/bc_fonts";
+@import "variables/bc_colors";
+
+$bc_default_primary : #01385e ;
+$bc_service_areas_bg_color : #5692b9 ;
+$bc_hero_bg: url('../img/banner.jpg'); 
+$bc_landing_page_hero_bg: url('../img/landingpage_banner.jpg');
+$bc_locations_bg:url('../img/wrench_man_bg.png');
+$bc_choose_us_height:250px;
+$bc_locations_secondary_text:#f59b26;
+$bc_coupon_border_style: dashed;
+$bc_footer_copyright_links_color:#4d4d4d;
+$bc_contact_form_label_color:#fff;
+$bc_hero_form_title:#116eab; 
+$bc_hero_form_body:#fef9f4; 
+$bc_blog_heading_color:#00395e;
+$border_width_custom_2: 2px !important ;
+$bc_about_bg:#ebebeb;
+
+$form_input:(
+    padding: 12px !important,
+    border-radius: 4px !important,
+    border: none
+);
+$submit_btn:(
+    background: #f38527,
+    border: none,
+    padding: 8px 23px,
+    color: #fff,
+    border-radius: 7px,
+);
