@@ -1,0 +1,1 @@
+# bluecorona-plugin-testimonials
